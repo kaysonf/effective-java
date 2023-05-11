@@ -1,6 +1,4 @@
-import chapter02.Item1_ConsiderStaticFactoryMethodsInsteadOfConstructors;
-import chapter02.Item2_ConsiderABuilderWhenFacedWithManyConstructorParameters;
-import chapter02.Item5_PreferDependencyInjectionToHardwiringResources;
+import chapter02.creating.and.destroying.objects.Item5_PreferDependencyInjectionToHardwiringResources;
 import interfaces.ILesson;
 
 import java.util.Arrays;

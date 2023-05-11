@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.creating.and.destroying.objects;
 
 import interfaces.ILesson;
 
@@ -6,7 +6,7 @@ import java.util.EnumSet;
 import java.util.Objects;
 import java.util.Set;
 
-import static chapter02.Pizza.Topping.*;
+import static chapter02.creating.and.destroying.objects.Pizza.Topping.*;
 
 /**
  * Consider the case of a class representing the Nutrition Facts label that appears on packaged foods.

@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.creating.and.destroying.objects;
 
 import interfaces.ILesson;
 
