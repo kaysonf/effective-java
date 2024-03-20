@@ -1,4 +1,5 @@
-import chapter02.creating.and.destroying.objects.Item5_PreferDependencyInjectionToHardwiringResources;
+import chapter04.classes.and.interfaces.Item20_PreferInterfacesToAbstractClasses;
+import chapter04.classes.and.interfaces.Item24_FavorStaticMemberClassesOverNonStatic;
 import interfaces.ILesson;
 
 import java.util.Arrays;
@@ -9,7 +10,15 @@ public class Main {
 //                new Item1_ConsiderStaticFactoryMethodsInsteadOfConstructors(),
 //                new Item2_ConsiderABuilderWhenFacedWithManyConstructorParameters(),
 
-                new Item5_PreferDependencyInjectionToHardwiringResources()
+//                new Item5_PreferDependencyInjectionToHardwiringResources(),
+//                new Item8_AvoidFinalizersAndCleaners(),
+//                new Item10_ObeyTheGeneralContractWhenOverridingEquals(),
+//                new Item12_AlwaysOverrideToString(),
+//                new Item13_OverrideCloneJudiciously(),
+//                new Item14_ConsideringImplementingComparable(),
+//                new Item15_MinimizeTheAccessibilityOfClassesAndMembers(),
+//                new Item20_PreferInterfacesToAbstractClasses(),
+                new Item24_FavorStaticMemberClassesOverNonStatic(),
         };
 
 

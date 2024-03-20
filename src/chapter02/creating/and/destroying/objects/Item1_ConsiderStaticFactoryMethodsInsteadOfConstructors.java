@@ -84,19 +84,18 @@ enum Brands {
 }
 interface BrandedCarCreator {
     static Car brandedCar(Brands brand) {
-       switch (brand) {
-           case MERCEDES: {
-               Mercedes m = new Mercedes("BLACK");
-               m.printBrand();
-               return m;
-           }
-
-           case MAZDA: {
-               Mazda m = new Mazda("BLACK");
-               m.checkMirror();
-               return m;
-           }
-       }
+        switch (brand) {
+            case MERCEDES -> {
+                Mercedes m = new Mercedes("BLACK");
+                m.printBrand();
+                return m;
+            }
+            case MAZDA -> {
+                Mazda m = new Mazda("BLACK");
+                m.checkMirror();
+                return m;
+            }
+        }
 
        return new Car("non branded");
     }

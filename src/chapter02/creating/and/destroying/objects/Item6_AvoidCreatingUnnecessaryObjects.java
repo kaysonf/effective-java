@@ -34,8 +34,6 @@ interface IsRoman {
 
 class PoorPerformance implements IsRoman {
 
-    private static final Pattern ROMAN = Pattern.compile("^(?=.)M*(C[MD]|D?C{0,3})" + "(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
-
     @Override
     public boolean isRomanNumeral(String s) {
         /*
